@@ -1,0 +1,131 @@
+body {
+    background-image: url('../images/background.jpg');
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: lightgrey;
+    padding: 10px;
+    width: 50%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box2, .box3 {
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: ivory;
+}
+
+header {
+    background-color: ivory;
+    padding: 15px;
+    padding-inline-start: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.categories {
+    width: 100%;
+}
+
+.categories h2 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.categories ul {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.categories li {
+    padding: 5px;
+    list-style-image: url('../images/check.jpg');
+}
+
+.routes {
+    width: 100%;
+    background-color: #333;
+    margin-bottom: 5px;
+}
+
+.routes ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.routes li {
+    padding: 10px;
+    color: black;
+}
