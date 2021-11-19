@@ -20,6 +20,18 @@ a:active {
     color: green;
 }
 
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background: blue;
+    color: #fff;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -44,6 +56,7 @@ a:active {
 .box2, .box3 {
     width: 50%;
     padding: 10px;
+    padding-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
     border-color: darkblue;
@@ -128,4 +141,65 @@ h1 {
 .routes li {
     padding: 10px;
     color: black;
+}
+
+.box4 {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.box4 h2 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-list li {
+    padding: 10px;
+    list-style: none;
+}
+
+.my-list li:nth-child(even){
+    background-color: grey;
+    color: white;
+}
+
+.my-list li:nth-child(odd){
+    background-color: ivory;
+    color: black;
+}
+
+.box5 {
+    width: 80%;
+    background-color: ivory;
+    margin-bottom: 20px;
+}
+
+.my-form {
+    width: 100%;
+    padding: 20px;
+}
+
+.my-form .form-group {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.box5 h2 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
 }
